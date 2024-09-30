@@ -1,6 +1,11 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
 }
 
 .light-high-contrast {
@@ -9,6 +14,10 @@ body {
 
 .light-low-contrast {
   color: #E5E7EB;
+}
+
+.dark-high-contrast {
+  color: #1F2937;
 }
 
 .hero-section {
@@ -52,7 +61,7 @@ body {
 .hero {
   display: flex;
   gap: 24px;
-  margin: 100px 0;
+  margin: 120px 0;
 }
 
 .hero-container {
@@ -87,4 +96,38 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 48px 0;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 120px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 156px;
+}
+
+.square {
+  width: 156px;
+  height: 156px;
+  border: #3882F6 solid 4px;
+  border-radius: 16px;
+}
+
+.info-card p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 16px;
 }
