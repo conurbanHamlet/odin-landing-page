@@ -69,8 +69,6 @@ h2 {
 }
 
 .hero-container {
-  /* display: flex; */
-  /* flex-direction: column; */
   flex: 1;
 }
 
@@ -93,13 +91,9 @@ h2 {
   margin-top: 16px;
 }
 
-.img {
-  flex: 1;
-  background-color: slategray;
-  color: #E5E7EB;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hero img {
+  flex: 1 1 0;
+  width: 450px;
 }
 
 .info-section h2 {
